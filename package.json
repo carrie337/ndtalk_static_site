@@ -1,0 +1,17 @@
+{
+  "name": "ndtalk",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/site.test.mjs",
+    "test:e2e": "node tests/e2e.mjs",
+    "serve": "python3 -m http.server 4173 --directory dist",
+    "test:a11y": "node tests/accessibility.mjs"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
+    "lighthouse": "^13.6.0",
+    "playwright": "^1.62.1"
+  }
+}

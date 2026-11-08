@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ndtalk-coaching-carrie.jauntyapple25.chatgpt.site/sitemap.xml
